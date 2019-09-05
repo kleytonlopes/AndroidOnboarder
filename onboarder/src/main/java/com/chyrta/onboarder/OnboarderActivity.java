@@ -114,6 +114,15 @@ public abstract class OnboarderActivity extends AppCompatActivity implements Vie
         this.btnFinish.setText(titleResId);
     }
 
+    public void setSkipButtonColor(int color){
+        this.btnSkip.setTextColor(color);
+    }
+
+    public void setFinishButtonColor(int color){
+
+        this.btnFinish.setTextColor(color);
+    }
+
     public void shouldUseFloatingActionButton(boolean shouldUseFloatingActionButton) {
 
         this.shouldUseFloatingActionButton = shouldUseFloatingActionButton;
